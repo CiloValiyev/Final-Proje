@@ -1,0 +1,158 @@
+// Section1
+.breadcrumb-wrapper {
+    background-image: url("http://sbtechnosoft.com/recruitepro/images/inner-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    padding: 120px 0;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    // margin-bottom: 50px;
+
+    @media (min-width: 1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            width: 970px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            width: 750px;
+        }
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+
+        h2 {
+            border: 1px solid #89b927;
+            border-radius: 30px;
+            color: #ffffff;
+            display: inline-block;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 30px;
+            margin: 0;
+            padding: 15px 25px;
+            text-transform: uppercase;
+        }
+
+        .line {
+            clear: both;
+            padding: 15px 0 0;
+
+            span {
+                width: 80px;
+                display: inline-block;
+                height: 1px;
+                background: #fff;
+            }
+        }
+
+        ul {
+            padding-top: 10px;
+
+            li {
+                display: inline-block;
+                padding: 0 8px 0 14px;
+                position: relative;
+                color: #fff;
+                font-size: 17px;
+                line-height: 17px;
+                text-transform: uppercase;
+                font-family: 'Rajdhani', sans-serif;
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+
+                a:hover {
+                    color: #89b927;
+                }
+            }
+        }
+    }
+
+    .inner-breadcrumb .slash::before {
+        color: #fff;
+        content: "/ ";
+        font-family: fontawesome;
+        font-size: 12px;
+        font-weight: normal;
+        left: 0;
+        line-height: normal;
+        margin-top: -7px;
+        position: absolute;
+        top: 50%;
+    }
+}
+
+// Section2
+.services-categories {
+    .container {
+
+        .row {
+            text-align: center;
+
+            .col2 {
+                margin-top: 40px !important;
+                margin-right: 50px !important;
+                background-color: #f9f9f9;
+                margin: 0 auto;
+                border-top-right-radius: 30px;
+                border-bottom-left-radius: 30px;
+
+                img {
+                    padding: 25px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 300;
+                    text-align: center;
+                    color: #1d2833;
+                    letter-spacing: 0.5px;
+                    margin: 0 0 5px;
+                    font-family: 'Roboto', sans-serif;
+                    padding-bottom: 15px;
+                }
+            }
+
+            .col12 {
+                button {
+                    display: inline-block;
+                    vertical-align: middle;
+                    box-shadow: 0 0 1px transparent;
+                    position: relative;
+                    background: #89b927;
+                    border-radius: 30px;
+                    padding: 10px 30px;
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 600;
+                    border: none;
+                    transition: 0.9s;
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                }
+
+                button:hover {
+                    background-color: #1d2833;
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,232 @@
+// Section2
+.contact-us {
+    .inner-page-wrapper1 {
+        .container {
+            z-index: 999999;
+
+            .hidden-sm {
+                img {
+                    margin-top: 100px !important;
+                }
+            }
+
+            .form-bg {
+                position: relative;
+                top: 80px;
+                background: #1d2833;
+                width: 100%;
+                padding: 30px;
+                border-radius: 10px;
+                margin-top: 50px;
+                z-index: 9999999;
+
+                .row {
+                    @media (min-width: 992px) {
+                        .col-md-6 {
+                            width: 50%;
+                        }
+                    }
+
+                    @media (max-width: 768px) {
+                        .col-sm-12 {
+                            width: 90%;
+                        }
+                    }
+
+                    .col-sm-4 {
+                        .why-us ul li:before {
+                            content: "\f00c";
+                            font-family: FontAwesome;
+                            display: inline-block;
+                            margin-left: -1.3em;
+                            width: 1.3em;
+                            color: #89b927;
+                        }
+
+                        .why-us {
+                            h2 {
+                                color: #fff;
+                                font-weight: 700;
+                                letter-spacing: 1px;
+                                margin-bottom: 20px;
+                            }
+
+                            ul {
+                                float: left;
+                                width: 42%;
+                                list-style: none;
+                                margin: 0 0 0 20px;
+
+                                li {
+                                    padding-left: 1.3em;
+                                    color: #fff;
+                                    padding: 0 0 10px;
+                                    font-size: 16px;
+                                }
+                            }
+                        }
+                    }
+
+                    .col-sm-8 {
+                        .contact-form {
+                            h2 {
+                                color: #89b927;
+                                font-weight: 600;
+                            }
+
+                            .row {
+                                @media (min-width: 992px) {
+                                    .col-md-4 {
+                                        width: 33.3333%;
+                                    }
+                                }
+
+                                @media (min-width: 992px) {
+
+                                    .col-md-1,
+                                    .col-md-10,
+                                    .col-md-11,
+                                    .col-md-12,
+                                    .col-md-2,
+                                    .col-md-3,
+                                    .col-md-4,
+                                    .col-md-5,
+                                    .col-md-6,
+                                    .col-md-7,
+                                    .col-md-8,
+                                    .col-md-9 {
+                                        float: left;
+                                    }
+                                }
+
+                                @media (min-width: 768px) {
+                                    .col-sm-12 {
+                                        width: 100%;
+                                    }
+                                }
+
+                                @media (min-width: 768px) {
+
+                                    .col-sm-1,
+                                    .col-sm-10,
+                                    .col-sm-11,
+                                    .col-sm-12,
+                                    .col-sm-2,
+                                    .col-sm-3,
+                                    .col-sm-4,
+                                    .col-sm-5,
+                                    .col-sm-6,
+                                    .col-sm-7,
+                                    .col-sm-8,
+                                    .col-sm-9 {
+                                        float: left;
+                                    }
+                                }
+
+                                .col-sm-12 {
+                                    .form-group {
+                                        display: flex;
+
+                                        input {
+                                            flex-direction: row;
+                                            background-color: #ffffff;
+                                            border: medium none;
+                                            border-radius: 90px;
+                                            box-shadow: none;
+                                            color: #6c757d;
+                                            display: block;
+                                            font-size: 14px;
+                                            height: 50px;
+                                            line-height: 45px;
+                                            width: 100%;
+                                            padding: 0 0 0 15px;
+                                            margin-bottom: 20px;
+                                        }
+
+                                        textarea {
+                                            background-color: #ffffff;
+                                            border: medium none;
+                                            border-radius: 25px;
+                                            box-shadow: none;
+                                            color: #6c757d;
+                                            display: block;
+                                            font-size: 14px;
+                                            height: auto;
+                                            line-height: 45px;
+                                            padding: 0 0 0 15px;
+                                            width: 100%;
+                                        }
+                                    }
+
+                                    .btn-one {
+                                        display: inline-block;
+                                        box-shadow: 0 0 1px transparent;
+                                        position: relative;
+                                        background: #89b927;
+                                        border-radius: 30px;
+                                        padding: 10px 30px;
+                                        color: #fff;
+                                        font-size: 17px;
+                                        font-weight: 600;
+                                        text-transform: uppercase;
+                                        margin-top: 20px;
+                                        transition: 0.8s;
+                                        float: right;
+                                    }
+
+                                    .btn-one:hover {
+                                        background: #333;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .row {
+                .contactus-txt {
+                    h2 {
+                        font-weight: 700;
+                        color: #89b927;
+                        font-size: 45px;
+                        margin-top: 100px !important;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 22px;
+                    }
+                }
+
+                .contact-address {
+                    .contact-left {
+                        width: 50%;
+                        display: flex;
+                        float: left;
+                        padding-right: 20px;
+
+                        i {
+                            img {
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+
+                    .contact-right {
+                        width: 50%;
+                        float: left;
+                        display: flex;
+                        padding-right: 20px;
+
+                        i {
+                            img {
+                                padding-right: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

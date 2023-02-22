@@ -1,0 +1,156 @@
+.swipper-slide1 {
+  height: 90vh !important;
+  display: flex;
+  background: url("http://sbtechnosoft.com/recruitepro/images/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: 0.9s;
+  transition-timing-function: ease-in;
+}
+.swipper-slide1 .swipper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.swipper-slide1 .swipper-center h1 {
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 0 0 13px 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: none;
+}
+.swipper-slide1 .swipper-center h1 span {
+  color: #89b927;
+}
+@media only screen and (max-width: 765px) {
+  .swipper-slide1 .swipper-center {
+    display: none;
+  }
+}
+@media only screen and (min-width: 765px) {
+  .swipper-slide1 .swipper-center h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 965px) {
+  .swipper-slide1 .swipper-center h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .swipper-slide1 .swipper-center h1 {
+    text-align: center;
+    font-size: 58px;
+  }
+}
+
+.swipper-slide2 {
+  height: 90vh !important;
+  display: flex;
+  background: url("http://sbtechnosoft.com/recruitepro/images/banner2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: 0.9s;
+  transition-timing-function: ease-in;
+}
+.swipper-slide2 .swipper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.swipper-slide2 .swipper-center h1 {
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 0 0 13px 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: none;
+}
+.swipper-slide2 .swipper-center h1 span {
+  color: #89b927;
+}
+@media only screen and (max-width: 765px) {
+  .swipper-slide2 .swipper-center {
+    display: none;
+  }
+}
+@media only screen and (min-width: 765px) {
+  .swipper-slide2 .swipper-center h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 965px) {
+  .swipper-slide2 .swipper-center h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .swipper-slide2 .swipper-center h1 {
+    text-align: center;
+    font-size: 58px;
+  }
+}
+
+.swipper-slide3 {
+  height: 90vh !important;
+  display: flex;
+  background: url("http://sbtechnosoft.com/recruitepro/images/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  transition: 1s;
+  transition-timing-function: ease-in;
+}
+.swipper-slide3 .swipper-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.swipper-slide3 .swipper-center h1 {
+  font-size: 58px;
+  line-height: 58px;
+  font-weight: 700;
+  margin: 0 0 13px 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: none;
+  transition: 2s;
+}
+.swipper-slide3 .swipper-center h1 span {
+  color: #89b927;
+}
+@media only screen and (max-width: 765px) {
+  .swipper-slide3 .swipper-center {
+    display: none;
+  }
+}
+@media only screen and (min-width: 765px) {
+  .swipper-slide3 .swipper-center h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 965px) {
+  .swipper-slide3 .swipper-center h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .swipper-slide3 .swipper-center h1 {
+    text-align: center;
+    font-size: 58px;
+  }
+}/*# sourceMappingURL=swiper.css.map */

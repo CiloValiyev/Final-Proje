@@ -1,0 +1,178 @@
+footer {
+  background: url("http://sbtechnosoft.com/recruitepro/images/footer-bg.jpg");
+}
+footer .container {
+  border-bottom: 1px solid rgb(118, 117, 117);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+footer .container .row .form .form-group input {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 30px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  height: 45px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0 0 0 6%;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+footer .container .row .form .form-group .message {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  border-bottom-left-radius: 30px !important;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  height: 45px;
+  line-height: 45px;
+  margin: 0;
+  padding: 0 0 0 6%;
+  text-align: left;
+  width: 65%;
+  margin-bottom: 20px;
+  display: inline-block;
+  float: left;
+}
+footer .container .row .form .form-group .bttn {
+  display: inline-block;
+  background: #89b927 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 30px 30px 0;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  margin: 0 0 0 -2px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+}
+footer .container .row .col-sm-3 .single-section-two ul li a button {
+  background: #84b228 !important;
+  content: "";
+  height: 15px;
+  top: 7px;
+  width: 15px;
+  border: none;
+  margin-right: 5px !important;
+}
+footer .container .row .colmd4 {
+  padding-left: 25px !important;
+}
+footer .container .row .col-md-4 h3 {
+  color: #89b927;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 20px;
+  padding: 0;
+}
+footer .container .row .col-md-4 .input-enter {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 30px 0 0 30px;
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 0 0 6%;
+  text-align: left;
+  width: 70%;
+  float: left;
+}
+footer .container .row .col-md-4 .input-btn-subscribe {
+  background: #89b927 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 30px 30px 0;
+  color: #ffffff;
+  cursor: pointer;
+  float: left;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 0 0 -2px;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 30%;
+}
+footer .container .row .col-md-4 p {
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+footer .container .row .col-md-4 ul {
+  list-style: none;
+  display: flex;
+  padding: 0 !important;
+}
+footer .container .row .col-md-4 ul li {
+  margin-right: 15px;
+  display: block;
+}
+footer .container .row .col-md-4 ul li i {
+  line-height: 33px;
+  text-align: center;
+  color: white;
+  transition: 0.9s;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  border: 1px solid #84b228;
+}
+footer .container .row .col-md-4 ul li .fa-facebook-f:hover {
+  background-color: #337ab7;
+}
+footer .container .row .col-md-4 ul li .fa-twitter:hover {
+  background-color: #4088c7;
+}
+footer .container .row .col-md-4 ul li .fa-linkedin-in:hover {
+  background-color: #265680;
+}
+footer .container .row .col-md-4 ul li .fa-google-plus-g:hover {
+  background-color: rgb(249, 74, 74);
+}
+footer .container .row .col-md-4 ul li .fa-youtube:hover {
+  background-color: rgb(230, 42, 42);
+}
+
+.copyright-wrapper {
+  background: #89b927;
+  float: left;
+  padding: 15px 0;
+  width: 100%;
+}
+.copyright-wrapper .container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyright-wrapper .container p {
+  color: #fff;
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+  font-weight: 300;
+}/*# sourceMappingURL=footer.css.map */

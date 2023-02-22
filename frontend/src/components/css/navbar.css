@@ -1,0 +1,78 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #2a2a2a;
+}
+body .navbar {
+  position: relative;
+  transition-delay: 0.9s;
+  background: hsl(210deg, 28%, 16%);
+  margin-bottom: 0px !important;
+}
+@media only screen and (max-width: 1240px) {
+  body .navbar .nav-link {
+    font-size: 10px !important;
+  }
+}
+@media only screen and (max-width: 965px) {
+  body .navbar .nav-link {
+    font-size: 13px !important;
+  }
+}
+body .navbar .navbar-nav {
+  margin-left: 20vh;
+}
+body .navbar .navbar-nav .dropdown-menu {
+  background-color: #2a2a2a;
+  z-index: 999999999 !important;
+}
+body .navbar .navbar-nav a {
+  color: white !important;
+  margin-right: 20px;
+  font-size: 15px;
+}
+body .navbar .navbar-nav .dropdown-item:hover {
+  background-color: #89b927;
+}
+body .navbar .nav-link {
+  border-bottom: 2px solid black;
+}
+body .navbar .nav-link:hover {
+  border-bottom: 2px solid #89b927;
+}
+body .ms-auto {
+  padding-right: 40px;
+}
+body .ms-auto .login-sign {
+  border-radius: 20px;
+  width: 150px;
+  background: #89b927;
+  color: #fff;
+  padding: 5px 10px;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+body .ms-auto .user {
+  float: right;
+  margin: 0 0 0 14px;
+  padding: 0;
+  background: #89b927;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+body .ms-auto .user i {
+  color: white;
+}
+@media only screen and (max-width: 1100px) {
+  body .ms-auto {
+    display: none;
+  }
+}/*# sourceMappingURL=navbar.css.map */
