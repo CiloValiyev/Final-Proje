@@ -21,6 +21,7 @@ const NotFound = () => {
               <li className='slash'><NavLink style={({ isActive }) =>
                 isActive ? activeStyle : undefined
               } to='/*'>404</NavLink> </li>
+              
             </ul>
           </div>
         </div>
