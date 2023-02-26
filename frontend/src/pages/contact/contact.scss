@@ -1,25 +1,70 @@
 // Section2
-.contact-us {
-    .inner-page-wrapper1 {
-        .container {
-            z-index: 999999;
+.container {
+    .row {
+        margin-bottom: 0;
 
-            .hidden-sm {
-                img {
-                    margin-top: 100px !important;
+        .hidden-sm {
+            img {
+                margin-top: 100px !important;
+            }
+        }
+
+        .contactus-txt {
+            h2 {
+                font-weight: 700;
+                color: #89b927;
+                font-size: 45px;
+                margin-top: 100px !important;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+
+        .contact-address {
+            .contact-left {
+                width: 50%;
+                display: flex;
+                float: left;
+                padding-right: 20px;
+
+                i {
+                    img {
+                        padding-right: 20px;
+                    }
                 }
             }
 
+            .contact-right {
+                width: 50%;
+                float: left;
+                display: flex;
+                padding-right: 20px;
+
+                i {
+                    img {
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-us1 {
+    .inner-page-wrapper10 {
+        .container {
+            z-index: 999999;
             .form-bg {
                 position: relative;
-                top: 80px;
+                top: 150px;
                 background: #1d2833;
                 width: 100%;
                 padding: 30px;
                 border-radius: 10px;
-                margin-top: 50px;
                 z-index: 9999999;
-
                 .row {
                     @media (min-width: 992px) {
                         .col-md-6 {
@@ -75,51 +120,15 @@
                             }
 
                             .row {
-                                @media (min-width: 992px) {
+                                @media (max-width: 992px) {
                                     .col-md-4 {
                                         width: 33.3333%;
-                                    }
-                                }
-
-                                @media (min-width: 992px) {
-
-                                    .col-md-1,
-                                    .col-md-10,
-                                    .col-md-11,
-                                    .col-md-12,
-                                    .col-md-2,
-                                    .col-md-3,
-                                    .col-md-4,
-                                    .col-md-5,
-                                    .col-md-6,
-                                    .col-md-7,
-                                    .col-md-8,
-                                    .col-md-9 {
-                                        float: left;
                                     }
                                 }
 
                                 @media (min-width: 768px) {
                                     .col-sm-12 {
                                         width: 100%;
-                                    }
-                                }
-
-                                @media (min-width: 768px) {
-
-                                    .col-sm-1,
-                                    .col-sm-10,
-                                    .col-sm-11,
-                                    .col-sm-12,
-                                    .col-sm-2,
-                                    .col-sm-3,
-                                    .col-sm-4,
-                                    .col-sm-5,
-                                    .col-sm-6,
-                                    .col-sm-7,
-                                    .col-sm-8,
-                                    .col-sm-9 {
-                                        float: left;
                                     }
                                 }
 
@@ -172,56 +181,13 @@
                                         margin-top: 20px;
                                         transition: 0.8s;
                                         float: right;
+                                        border: none;
                                     }
 
                                     .btn-one:hover {
                                         background: #333;
                                     }
                                 }
-                            }
-                        }
-                    }
-                }
-            }
-
-            .row {
-                .contactus-txt {
-                    h2 {
-                        font-weight: 700;
-                        color: #89b927;
-                        font-size: 45px;
-                        margin-top: 100px !important;
-                    }
-
-                    p {
-                        font-size: 16px;
-                        line-height: 22px;
-                    }
-                }
-
-                .contact-address {
-                    .contact-left {
-                        width: 50%;
-                        display: flex;
-                        float: left;
-                        padding-right: 20px;
-
-                        i {
-                            img {
-                                padding-right: 20px;
-                            }
-                        }
-                    }
-
-                    .contact-right {
-                        width: 50%;
-                        float: left;
-                        display: flex;
-                        padding-right: 20px;
-
-                        i {
-                            img {
-                                padding-right: 20px;
                             }
                         }
                     }

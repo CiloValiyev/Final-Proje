@@ -1,30 +1,61 @@
-.contact-us .inner-page-wrapper1 .container {
-  z-index: 999999;
+.container .row {
+  margin-bottom: 0;
 }
-.contact-us .inner-page-wrapper1 .container .hidden-sm img {
+.container .row .hidden-sm img {
   margin-top: 100px !important;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg {
+.container .row .contactus-txt h2 {
+  font-weight: 700;
+  color: #89b927;
+  font-size: 45px;
+  margin-top: 100px !important;
+}
+.container .row .contactus-txt p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.container .row .contact-address .contact-left {
+  width: 50%;
+  display: flex;
+  float: left;
+  padding-right: 20px;
+}
+.container .row .contact-address .contact-left i img {
+  padding-right: 20px;
+}
+.container .row .contact-address .contact-right {
+  width: 50%;
+  float: left;
+  display: flex;
+  padding-right: 20px;
+}
+.container .row .contact-address .contact-right i img {
+  padding-right: 20px;
+}
+
+.contact-us1 .inner-page-wrapper10 .container {
+  z-index: 999999;
+}
+.contact-us1 .inner-page-wrapper10 .container .form-bg {
   position: relative;
-  top: 80px;
+  top: 150px;
   background: #1d2833;
   width: 100%;
   padding: 30px;
   border-radius: 10px;
-  margin-top: 50px;
   z-index: 9999999;
 }
 @media (min-width: 992px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-md-6 {
+  .contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-md-6 {
     width: 50%;
   }
 }
 @media (max-width: 768px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-12 {
+  .contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-12 {
     width: 90%;
   }
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-4 .why-us ul li:before {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-4 .why-us ul li:before {
   content: "\f00c";
   font-family: FontAwesome;
   display: inline-block;
@@ -32,74 +63,42 @@
   width: 1.3em;
   color: #89b927;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-4 .why-us h2 {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-4 .why-us h2 {
   color: #fff;
   font-weight: 700;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-4 .why-us ul {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-4 .why-us ul {
   float: left;
   width: 42%;
   list-style: none;
   margin: 0 0 0 20px;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-4 .why-us ul li {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-4 .why-us ul li {
   padding-left: 1.3em;
   color: #fff;
   padding: 0 0 10px;
   font-size: 16px;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form h2 {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form h2 {
   color: #89b927;
   font-weight: 600;
 }
-@media (min-width: 992px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-4 {
+@media (max-width: 992px) {
+  .contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-4 {
     width: 33.3333%;
   }
 }
-@media (min-width: 992px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-1,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-10,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-11,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-12,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-2,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-3,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-4,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-5,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-6,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-7,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-8,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-md-9 {
-    float: left;
-  }
-}
 @media (min-width: 768px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 {
+  .contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-1,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-10,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-11,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-2,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-3,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-4,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-5,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-6,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-7,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-8,
-  .contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-9 {
-    float: left;
-  }
-}
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group {
   display: flex;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group input {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group input {
   flex-direction: row;
   background-color: #ffffff;
   border: medium none;
@@ -114,7 +113,7 @@
   padding: 0 0 0 15px;
   margin-bottom: 20px;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group textarea {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .form-group textarea {
   background-color: #ffffff;
   border: medium none;
   border-radius: 25px;
@@ -127,7 +126,7 @@
   padding: 0 0 0 15px;
   width: 100%;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .btn-one {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .btn-one {
   display: inline-block;
   box-shadow: 0 0 1px transparent;
   position: relative;
@@ -141,35 +140,8 @@
   margin-top: 20px;
   transition: 0.8s;
   float: right;
+  border: none;
 }
-.contact-us .inner-page-wrapper1 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .btn-one:hover {
+.contact-us1 .inner-page-wrapper10 .container .form-bg .row .col-sm-8 .contact-form .row .col-sm-12 .btn-one:hover {
   background: #333;
-}
-.contact-us .inner-page-wrapper1 .container .row .contactus-txt h2 {
-  font-weight: 700;
-  color: #89b927;
-  font-size: 45px;
-  margin-top: 100px !important;
-}
-.contact-us .inner-page-wrapper1 .container .row .contactus-txt p {
-  font-size: 16px;
-  line-height: 22px;
-}
-.contact-us .inner-page-wrapper1 .container .row .contact-address .contact-left {
-  width: 50%;
-  display: flex;
-  float: left;
-  padding-right: 20px;
-}
-.contact-us .inner-page-wrapper1 .container .row .contact-address .contact-left i img {
-  padding-right: 20px;
-}
-.contact-us .inner-page-wrapper1 .container .row .contact-address .contact-right {
-  width: 50%;
-  float: left;
-  display: flex;
-  padding-right: 20px;
-}
-.contact-us .inner-page-wrapper1 .container .row .contact-address .contact-right i img {
-  padding-right: 20px;
 }/*# sourceMappingURL=contact.css.map */

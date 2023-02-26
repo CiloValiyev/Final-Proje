@@ -65,6 +65,45 @@
   height: 369px;
 }
 
+.container .row .col-md-5 .accordion-one {
+  background-color: #89b927;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  border: none;
+}
+.container .row .col-md-5 .accordion-one .panel-one {
+  padding: 0 18px;
+  background-color: #f3fce1;
+}
+.container .row .col-md-5 .accordion {
+  background-color: #1d2833;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+}
+.container .row .col-md-5 .accordion .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: #f3fce1;
+  overflow: hidden;
+}
+.container .row .col-md-5 .active, .container .row .col-md-5 .accordion:hover {
+  background-color: #89b927;
+}
+
 .business-performance-wrapper {
   background-image: url("http://sbtechnosoft.com/recruitepro/images/business-performance-bg.jpg");
   background-position: center center;
@@ -303,4 +342,98 @@
 }
 .inner-page-wrapper1 .container .row .not-found-text .btn-one:hover {
   background-color: #89b927;
+}
+
+.inner-page-wrapper5 {
+  margin-bottom: 50px;
+}
+.inner-page-wrapper5 .container .row .accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+.inner-page-wrapper5 .container .row .accordion span {
+  color: black;
+  font-weight: 600;
+}
+.inner-page-wrapper5 .container .row .accordion button {
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  border: none;
+  margin-right: 15px;
+}
+.inner-page-wrapper5 .container .row .accordion button:hover {
+  background: #89b927;
+}
+.inner-page-wrapper5 .container .row .accordion .icon {
+  background: #89b927;
+}
+.inner-page-wrapper5 .container .row .panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 70px;
+  color: #1d2833;
+}
+.inner-page-wrapper5 .container .row .panel p {
+  color: #3f4041;
+}
+.inner-page-wrapper5 .container .row .panel1 {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 70px;
+  color: #1d2833;
+}
+.inner-page-wrapper5 .container .row .contact-form .form-group {
+  margin-bottom: 25px;
+  position: relative;
+}
+.inner-page-wrapper5 .container .row .contact-form .form-group input {
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  border-radius: 0;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  height: 50px;
+  line-height: 24px;
+  padding: 8px 20px;
+  transition: all 500ms ease 0s;
+  width: 100%;
+}
+.inner-page-wrapper5 .container .row .contact-form .form-group textarea {
+  background-color: #f7f7f7;
+  border: 1px solid #f7f7f7;
+  border-radius: 0;
+  color: #333333;
+  display: block;
+  font-size: 14px;
+  height: 50px;
+  line-height: 24px;
+  padding: 8px 20px;
+  transition: all 500ms ease 0s;
+  width: 100%;
+}
+.inner-page-wrapper5 .container .row .contact-form .form-group button {
+  display: inline-block;
+  vertical-align: middle;
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #89b927;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  text-transform: uppercase;
 }/*# sourceMappingURL=pages.css.map */

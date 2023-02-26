@@ -10,6 +10,7 @@ import AboutUs from "../pages/pages/AboutUs";
 import Faq from "../pages/pages/Faq";
 import CommingSoon from "../pages/pages/CommingSoon";
 import NotFound from "../pages/pages/NotFound";
+import Apply from "../pages/current/Apply";
 const ROUTES = [
     {
         path: "",
@@ -47,6 +48,10 @@ const ROUTES = [
             {
                 path: "current",
                 element: <Current />
+            },
+            {
+                path: "apply",
+                element: <Apply />
             },
             {
                 path: "blog",

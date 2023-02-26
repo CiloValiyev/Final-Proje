@@ -1,12 +1,45 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import "../blog/blog.scss"
 const BlogDetails = () => {
     let activeStyle = {
         color: "#89b927"
     };
+    const [topButton, settopButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 120) {
+        settopButton(true)
+      }
+      else {
+        settopButton(false)
+      }
+    })
+  }, [])
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
     return (
         <div>
+             {topButton && (
+        <button style={{
+          position: "fixed",
+          bottom: '50px',
+          right: "50px",
+          width: "50px",
+          height:"50px",
+          fontSize:'20px',
+          border:'none',
+          borderRadius:"50%",
+          color:"white",
+          background:"#89b927"
+        }} onClick={scrollUp}><i class="fa-solid fa-chevron-up"></i></button>
+      )}
             {/* Section1 */}
             <section className='contact-us-wrapper1'>
                 <div className="breadcrumb-wrapper">

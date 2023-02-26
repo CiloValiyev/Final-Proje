@@ -1,0 +1,175 @@
+.inner-page-wrapper .container .single-jobs {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #ebebeb;
+}
+.inner-page-wrapper .container .single-jobs .fa-users {
+  background-color: #89b927;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  float: left;
+  margin: 0 20px 0 0;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 50%;
+}
+.inner-page-wrapper .container .single-jobs .job-heading {
+  display: flex;
+}
+.inner-page-wrapper .container .single-jobs .job-heading h3 {
+  color: #000;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.inner-page-wrapper .container .single-jobs .job-heading p {
+  color: #000;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+.inner-page-wrapper .container .single-jobs .our-location {
+  display: flex;
+  float: right;
+}
+.inner-page-wrapper .container .single-jobs .our-location .fa-calendar {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  color: #89b927;
+  font-size: 17px;
+  padding-right: 15px;
+}
+.inner-page-wrapper .container .single-jobs .our-location .location-content h3 {
+  color: #000;
+  font-size: 18px;
+  padding: 0;
+  margin: 0 0 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.inner-page-wrapper .container .single-jobs .our-location .location-content a {
+  text-decoration: none;
+  background: #282828;
+  color: #ffffff;
+  display: inline-block;
+  float: right;
+  font-size: 15px;
+  margin: 0;
+  padding: 5px 14px;
+  text-align: right;
+}
+.inner-page-wrapper .container .pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+  margin: 25px 0 100px;
+  display: flex;
+}
+.inner-page-wrapper .container .pagination > li > a,
+.inner-page-wrapper .container .pagination > li > span {
+  background-color: #ffffff;
+  border: 1px solid #89b927;
+  color: #89b927;
+  margin: 0 1px;
+  padding: 5px 20px;
+  border-radius: 0;
+  text-decoration: none;
+}
+.inner-page-wrapper .container .fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.apply-jobs-wrapper1 {
+  padding: 89px 0 81px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .apply-jobs-wrapper1 .container {
+    width: 750px;
+  }
+}
+.apply-jobs-wrapper1 .container .row form {
+  margin-top: 100px;
+  display: flex;
+}
+.apply-jobs-wrapper1 .container .row form .col-sm-5 {
+  margin-right: 40px;
+  margin-left: 50px;
+}
+.apply-jobs-wrapper1 .container .row form textarea {
+  height: 110px !important;
+  padding: 5px 20px 20px 10px;
+}
+.apply-jobs-wrapper1 .container .row form .form-control {
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #d2d2d2;
+  border-radius: 0;
+  color: #555555;
+  display: block;
+  font-size: 16px;
+  height: 40px;
+  line-height: 1.42857;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.apply-jobs-wrapper1 .container .row form .btn-file {
+  border: 1px solid #d2d2d2;
+  border-radius: 0;
+  color: #888;
+  overflow: hidden;
+  padding: 7px 7px 10px;
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+.apply-jobs-wrapper1 .container .row form .btn-file input {
+  background: #0a84cb none repeat scroll 0 0;
+  cursor: inherit;
+  display: block;
+  font-size: 100px;
+  min-height: 100%;
+  min-width: 100%;
+  opacity: 0;
+  outline: medium none;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+.apply-jobs-wrapper1 .container .row form .btn-file::before {
+  color: #89b927;
+  content: "\f1c2";
+  font-family: FontAwesome;
+  margin-right: 5px;
+}
+.apply-jobs-wrapper1 .container .row .btn-one {
+  display: inline-block;
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  background: #89b927;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 0.9s;
+  border: none;
+  margin-left: 50px;
+}
+.apply-jobs-wrapper1 .container .row .btn-one:hover {
+  background-color: #1d2833;
+}/*# sourceMappingURL=current.css.map */

@@ -4,9 +4,10 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #2a2a2a;
-
     .navbar {
-        position: relative;
+        position: fixed;
+        width: 100%;
+        z-index: 9999999999;
         transition-delay: 0.9s;
         background: hsl(210, 28%, 16%);
         margin-bottom: 0px !important;
@@ -62,6 +63,7 @@ body {
             font-size: 10px;
             text-transform: uppercase;
             font-weight: 500;
+            border: none;
         }
 
         .user {
@@ -74,6 +76,7 @@ body {
             text-align: center;
             line-height: 35px;
             border-radius: 50%;
+            border: none;
             cursor: pointer;
 
             i {

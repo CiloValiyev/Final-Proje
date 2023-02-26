@@ -6,9 +6,11 @@ body {
   color: #2a2a2a;
 }
 body .navbar {
-  position: relative;
+  position: fixed;
+  width: 100%;
+  z-index: 9999999999;
   transition-delay: 0.9s;
-  background: hsl(210deg, 28%, 16%);
+  background: hsl(210, 28%, 16%);
   margin-bottom: 0px !important;
 }
 @media only screen and (max-width: 1240px) {
@@ -55,6 +57,7 @@ body .ms-auto .login-sign {
   font-size: 10px;
   text-transform: uppercase;
   font-weight: 500;
+  border: none;
 }
 body .ms-auto .user {
   float: right;
@@ -66,6 +69,7 @@ body .ms-auto .user {
   text-align: center;
   line-height: 35px;
   border-radius: 50%;
+  border: none;
   cursor: pointer;
 }
 body .ms-auto .user i {

@@ -1,0 +1,63 @@
+.swipper-slide-message {
+  background-color: #f7f7f7;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.swipper-slide-message .container .row .col-12 .success-stories {
+  text-align: center;
+}
+.swipper-slide-message .container .row .col-12 .success-stories h1 {
+  color: #2d2e2e;
+  font-size: 45px;
+  font-weight: 700;
+  margin: 5px 0;
+  padding: 0;
+}
+.swipper-slide-message .container .row .col-12 .success-stories h1 span {
+  color: #89b927;
+}
+.swipper-slide-message .container .row .col-12 .success-stories p {
+  color: #2d2e2e;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 5px 0;
+  padding: 0;
+  text-transform: none;
+}
+.swipper-slide-message .container .row .col-12 .message {
+  text-align: center;
+}
+.swipper-slide-message .container .row .col-12 .message .text {
+  background: #89b927 none repeat scroll 0 0;
+  border-radius: 10px;
+  padding: 25px;
+  width: 100%;
+  margin: 30px;
+}
+.swipper-slide-message .container .row .col-12 .message .text p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 22px;
+}
+.swipper-slide-message .container .row .col-12 .message .testimonials-inner {
+  margin: 0 0 0 30px;
+  border-left: 25px solid rgba(0, 0, 0, 0);
+  border-right: 25px solid rgba(0, 0, 0, 0);
+  border-top: 50px solid #89b927;
+}
+.swipper-slide-message .container .row .col-12 .avatar {
+  text-align: center;
+  margin-left: 30px;
+}
+.swipper-slide-message .container .row .col-12 .avatar h3 {
+  font-size: 20px;
+  color: #89b927;
+  font-weight: 700;
+  margin: 25px 0 8px;
+}
+.swipper-slide-message .container .row .col-12 .avatar p {
+  font-size: 18px;
+  color: #1d2833;
+  font-weight: 300;
+  margin: 0 0 8px;
+}/*# sourceMappingURL=swipperOne.css.map */

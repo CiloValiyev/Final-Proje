@@ -1,9 +1,59 @@
-import React from 'react'
-import Swipper from '../../components/swipper/Swipper'
-import "../home/home.scss"
+import React, { useEffect, useState } from 'react';
+import axios from "axios";
+import Swipper from '../../components/swipper/Swipper';
+import "../home/home.scss";
+import SwipperOne from '../../components/swipperMessage/SwipperOne';
 const Home = () => {
+  const [data, setData] = useState([]);
+  const [topButton, settopButton] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 120) {
+        settopButton(true)
+      }
+      else {
+        settopButton(false)
+      }
+    })
+  }, [])
+
+  const scrollUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
+  function getData() {
+    const URL = "http://localhost:8080/categories/";
+    axios.get(URL).then((res) => setData(res.data))
+  }
+
+  useEffect(() => {
+    getData()
+  }, [])
+
+  async function handleDelete(id) {
+    await axios.delete(`http://localhost:8080/categories/${id}`)
+    getData()
+  }
   return (
     <div>
+      {topButton && (
+        <button style={{
+          position: "fixed",
+          bottom: '50px',
+          right: "50px",
+          width: "50px",
+          height:"50px",
+          fontSize:'20px',
+          border:'none',
+          borderRadius:"50%",
+          color:"white",
+          background:"#89b927"
+        }} onClick={scrollUp}><i class="fa-solid fa-chevron-up"></i></button>
+      )}
       {/* Section1 */}
       <section className='swipper'>
         <Swipper />
@@ -29,10 +79,14 @@ const Home = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-2 col2">
-              <img src="http://sbtechnosoft.com/recruitepro/images/icon1.png" alt="img" />
-              <h3>Accounting / Finance</h3>
-            </div>
+            {data && data.map((d) => (
+              <div key={d.id} className="col-3 col2">
+                <img src={d.image} alt="img" />
+                <h3>{d.categories}</h3>
+                <button onClick={(id) => handleDelete(d._id)} style={{ border: "none", background: "none" }}><i style={{ color: "#89b927", fontSize: "20px" }} class="fa-solid fa-trash"></i></button>
+              </div>
+            ))}
+
             <div className="col-12 col12">
               <button>BROWSE ALL CATEGORIES</button>
             </div>
@@ -310,8 +364,13 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/* Section7 */}
+
+      {/* Section Message */}
       <section>
+        <SwipperOne />
+      </section>
+      {/* Section7 */}
+      <section style={{ paddingTop: "100px" }}>
         <div className="app-wrapper">
           <div className="container">
             <div className="row">
@@ -414,8 +473,8 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center"> 
-            <button className="btn-one">Visit Our Blog</button>
+            <div className="text-center">
+              <button className="btn-one">Visit Our Blog</button>
             </div>
           </div>
         </div>

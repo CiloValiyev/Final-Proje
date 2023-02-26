@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
 const NotFound = () => {
   let activeStyle = {
     color: "#89b927"

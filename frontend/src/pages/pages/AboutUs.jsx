@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import "../pages/pages.scss";
+import "../pages/about";
 const AboutUs = () => {
     let activeStyle = {
         color: "#89b927"
@@ -45,8 +46,27 @@ const AboutUs = () => {
                                     <div className="explore">Explore</div>
                                 </div>
                             </div>
-                            <div className="col-md-5 col-sm-12">
+                            <div style={{ marginLeft: "100px" }} className="col-md-5 col-sm-12">
 
+                                <button className="accordion-one">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
+                                <div className="panel-one">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                <button className="accordion">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
+                                <div className="panel">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                <button className="accordion">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
+                                <div className="panel">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+
+                                <button className="accordion">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
+                                <div className="panel">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,20 +75,20 @@ const AboutUs = () => {
 
             {/* Section3 */}
             <section>
-                <div class="business-performance-wrapper">
-                    <div class="container">
-                        <div class="title">
+                <div className="business-performance-wrapper">
+                    <div className="container">
+                        <div className="title">
                             <h2>We drive <span>Business Performance </span> ?</h2>
                             <h3>If the job is online, you will find it on RecruitePro</h3>
                         </div>
                     </div>
-                    <div class="container">
-                        <div class="passionate-wrapper">
-                            <div class="passionate-inner">
-                                <div class="passionate-text">
+                    <div className="container">
+                        <div className="passionate-wrapper">
+                            <div className="passionate-inner">
+                                <div className="passionate-text">
                                     <h2>Passionate Specialists</h2>
                                     <h3>If the job is online, you will find it on RecruitePro</h3>
-                                    <span class="line"></span>
+                                    <span className="line"></span>
                                     <p>Elementum nec viverra amet felis habitasse
                                         suspendisse luctus a fames non a bibendum odio
                                         sem nibh suspendisse parturient parturient scelerisque.</p>
@@ -81,28 +101,28 @@ const AboutUs = () => {
 
             {/* Section4 */}
             <section>
-                <div class="creative-wrapper1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-5 col-sm-12">
-                                <div class="creative-text bor">
+                <div className="creative-wrapper1">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-5 col-sm-12">
+                                <div className="creative-text bor">
                                     <h2>Creative</h2>
-                                    <span class="line"></span>
+                                    <span className="line"></span>
                                     <h3>COPYWRITER</h3>
                                     <p>Consectetur ac nisi venenatis consequat varius vestibulum phasellus nisi netus ad parturient ultrices laoreetvel posuere nam suscipit nullam a iaculis.A inceptos justo a tincidunt facilisis praesent in convallis accumsan adipiscing leo a eleifend senectus condimentum diam proin nibh a auctor sed.Suspendisse a parturient.</p>
                                 </div>
                             </div>
-                            <div class="col-md-7 col-sm-12 pull-right">
-                                <div class="creative-img"><img className='img-first' src="http://sbtechnosoft.com/recruitepro/images/creative-img1.jpg" alt="" /></div>
+                            <div className="col-md-7 col-sm-12 pull-right">
+                                <div className="creative-img"><img className='img-first' src="http://sbtechnosoft.com/recruitepro/images/creative-img1.jpg" alt="" /></div>
                             </div>
 
-                            <div class="col-md-7 col-sm-12">
-                                <div class="creative-img"><img src="http://sbtechnosoft.com/recruitepro/images/creative-img2.jpg" alt="" /></div>
+                            <div className="col-md-7 col-sm-12">
+                                <div className="creative-img"><img src="http://sbtechnosoft.com/recruitepro/images/creative-img2.jpg" alt="" /></div>
                             </div>
-                            <div class="col-md-5 col-sm-12">
-                                <div class="creative-text bor1">
+                            <div className="col-md-5 col-sm-12">
+                                <div className="creative-text bor1">
                                     <h2>Planning &amp; Strategy</h2>
-                                    <span class="line"></span>
+                                    <span className="line"></span>
                                     <h3>COPYWRITER</h3>
                                     <p>Consectetur ac nisi venenatis consequat varius vestibulum phasellus nisi netus ad parturient ultrices laoreetvel posuere nam suscipit nullam a iaculis.A inceptos justo a tincidunt facilisis praesent in convallis accumsan adipiscing leo a eleifend senectus condimentum diam proin nibh a auctor sed.Suspendisse a parturient.</p>
                                 </div>

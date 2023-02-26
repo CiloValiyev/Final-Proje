@@ -80,6 +80,52 @@
     }
 }
 
+// Section2
+
+.container{
+    .row{
+        .col-md-5{
+            .accordion-one{
+                background-color: #89b927;
+                color: white;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                text-align: left;
+                font-size: 15px;
+                transition: 0.4s;
+                margin-bottom: 15px; 
+                border: none;
+                .panel-one {
+                    padding: 0 18px;
+                    background-color: #f3fce1;
+                  }
+            }
+            .accordion {
+                background-color: #1d2833;
+                color: white;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+                margin-bottom: 15px;
+                .panel {
+                    padding: 0 18px;
+                    display: none;
+                    background-color: #f3fce1;
+                    overflow: hidden;
+                  }
+              }
+              .active, .accordion:hover {
+                background-color: #89b927; 
+              }
+        }
+    }
+}
 // Section3
 .business-performance-wrapper {
     background-image: url("http://sbtechnosoft.com/recruitepro/images/business-performance-bg.jpg");
@@ -359,13 +405,122 @@
                     text-transform: uppercase;
                     transition: 0.8s;
                     border: none;
-                    a{
+
+                    a {
                         color: white;
                         text-decoration: none;
                     }
                 }
-                .btn-one:hover{
+
+                .btn-one:hover {
                     background-color: #89b927;
+                }
+            }
+        }
+    }
+}
+
+// Faq
+.inner-page-wrapper5 {
+    margin-bottom: 50px;
+    .container {
+        .row {
+            .accordion {
+                background-color: white;
+                color: black;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.4s;
+                span{
+                    color: black;
+                    font-weight:600 ;
+                }
+                button{
+                    color: #ffffff;
+                    height: 40px;
+                    width: 40px;
+                    border: none;
+                    margin-right: 15px;
+                }
+                button:hover{
+                    background: #89b927;
+
+                }
+                .icon{
+                    background: #89b927;
+
+                }
+              }
+              
+              .panel {
+                padding: 0 18px;
+                display: none;
+                background-color: white;
+                overflow: hidden;
+                padding-left: 70px;
+                color: #1d2833;
+                p{
+                    color: #3f4041;
+                }
+              }
+              .panel1{
+                padding: 0 18px;
+                background-color: white;
+                overflow: hidden;
+                padding-left: 70px;
+                color: #1d2833;
+              }
+            .contact-form {
+                .form-group {
+                    margin-bottom: 25px;
+                    position: relative;
+
+                    input {
+                        background-color: #f7f7f7;
+                        border: 1px solid #f7f7f7;
+                        border-radius: 0;
+                        color: #333333;
+                        display: block;
+                        font-size: 14px;
+                        height: 50px;
+                        line-height: 24px;
+                        padding: 8px 20px;
+                        transition: all 500ms ease 0s;
+                        width: 100%;
+                    }
+
+                    textarea {
+                        background-color: #f7f7f7;
+                        border: 1px solid #f7f7f7;
+                        border-radius: 0;
+                        color: #333333;
+                        display: block;
+                        font-size: 14px;
+                        height: 50px;
+                        line-height: 24px;
+                        padding: 8px 20px;
+                        transition: all 500ms ease 0s;
+                        width: 100%;
+                    }
+
+                    button {
+                        display: inline-block;
+                        vertical-align: middle;
+                        box-shadow: 0 0 1px transparent;
+                        position: relative;
+                        background: #89b927;
+                        padding: 10px 30px;
+                        color: #fff;
+                        font-size: 17px;
+                        font-weight: 600;
+                        border: none;
+                        text-transform: uppercase;
+                    }
                 }
             }
         }
