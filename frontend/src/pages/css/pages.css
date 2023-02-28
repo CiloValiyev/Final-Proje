@@ -65,22 +65,6 @@
   height: 369px;
 }
 
-.container .row .col-md-5 .accordion-one {
-  background-color: #89b927;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  font-size: 15px;
-  transition: 0.4s;
-  margin-bottom: 15px;
-  border: none;
-}
-.container .row .col-md-5 .accordion-one .panel-one {
-  padding: 0 18px;
-  background-color: #f3fce1;
-}
 .container .row .col-md-5 .accordion {
   background-color: #1d2833;
   color: white;
@@ -94,14 +78,15 @@
   transition: 0.4s;
   margin-bottom: 15px;
 }
-.container .row .col-md-5 .accordion .panel {
+.container .row .col-md-5 .active,
+.container .row .col-md-5 .accordion:hover {
+  background-color: #89b927;
+}
+.container .row .col-md-5 .panel {
   padding: 0 18px;
   display: none;
   background-color: #f3fce1;
   overflow: hidden;
-}
-.container .row .col-md-5 .active, .container .row .col-md-5 .accordion:hover {
-  background-color: #89b927;
 }
 
 .business-performance-wrapper {
@@ -435,5 +420,127 @@
   font-size: 17px;
   font-weight: 600;
   border: none;
+  text-transform: uppercase;
+}
+
+.comming-soon {
+  background: url("http://sbtechnosoft.com/recruitepro/images/comming-soon-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+  -webkit-backdrop-filter: sepia(90%);
+          backdrop-filter: sepia(90%);
+}
+.comming-soon .container .row .col-6 a {
+  text-decoration: none;
+}
+.comming-soon .container .row .col-6 a img {
+  margin-top: 50px;
+}
+.comming-soon .container .row .col-6 ul {
+  list-style: none;
+  float: right;
+  margin-top: 50px;
+  display: flex;
+}
+.comming-soon .container .row .col-6 ul li a {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #f1f1f1;
+  color: #f1f1f1;
+  display: inline-block;
+  height: 35px;
+  line-height: 32px;
+  margin-right: 8px;
+  text-align: center;
+  width: 35px;
+}
+.comming-soon .container .row .col-6 ul li a i {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+.comming-soon .container .row .col-12 {
+  margin-top: 150px;
+  text-align: center;
+}
+.comming-soon .container .row .col-12 h1 {
+  color: #f1f1f1;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.comming-soon .container .row .col-12 p {
+  color: #89b927;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+.comming-soon .container .row .col-12 .time {
+  display: flex;
+  justify-content: center;
+}
+.comming-soon .container .row .col-12 .time .hours {
+  margin-right: 80px;
+  margin-left: 30px;
+}
+.comming-soon .container .row .col-12 .time .hours span {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.comming-soon .container .row .col-12 .time .hours p {
+  font-size: 18px;
+  color: #aaa;
+}
+.comming-soon .container .row .col-12 .time .seconds {
+  margin-right: 80px;
+}
+.comming-soon .container .row .col-12 .time .seconds span {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.comming-soon .container .row .col-12 .time .seconds p {
+  font-size: 18px;
+  color: #aaa;
+}
+.comming-soon .container .row .col-12 .time .minutes {
+  margin-right: 50px;
+}
+.comming-soon .container .row .col-12 .time .minutes span {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 20px;
+  line-height: 30px;
+  color: #fff;
+}
+.comming-soon .container .row .col-12 .time .minutes p {
+  font-size: 18px;
+  color: #aaa;
+}
+.comming-soon .container .row .col-12 input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #89b927;
+  color: #89b927;
+  height: 45px;
+  padding: 10px;
+  width: 300px;
+}
+.comming-soon .container .row .col-12 button {
+  background: #89b927;
+  border: 1px solid #89b927;
+  color: #f1f1f1;
+  display: inline-block;
+  font-size: 13px;
+  height: 50px;
+  letter-spacing: 2px;
+  line-height: 48px;
+  padding: 0 45px;
   text-transform: uppercase;
 }/*# sourceMappingURL=pages.css.map */

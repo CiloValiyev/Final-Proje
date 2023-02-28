@@ -25,7 +25,7 @@ const Navbar = () => {
                                 <div className="dropdown-menu">
                                     <Link to='pages/aboutus' className="dropdown-item">About Us</Link>
                                     <Link to='pages/faq' className="dropdown-item">Faq</Link>
-                                    <Link to='pages/commingsoon' className="dropdown-item">Comming Soon</Link>
+                                    <Link to='commingsoon' className="dropdown-item">Comming Soon</Link>
                                     <Link to='*' className="dropdown-item">404</Link>
                                 </div>
                             </div>

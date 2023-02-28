@@ -3,6 +3,7 @@ import axios from "axios";
 import Swipper from '../../components/swipper/Swipper';
 import "../home/home.scss";
 import SwipperOne from '../../components/swipperMessage/SwipperOne';
+import {Helmet} from "react-helmet";
 const Home = () => {
   const [data, setData] = useState([]);
   const [topButton, settopButton] = useState(false);
@@ -40,19 +41,23 @@ const Home = () => {
   }
   return (
     <div>
+      <Helmet>
+        <title>Home - Recruite Pro</title>
+      </Helmet>
       {topButton && (
         <button style={{
           position: "fixed",
           bottom: '50px',
           right: "50px",
           width: "50px",
-          height:"50px",
-          fontSize:'20px',
-          border:'none',
-          borderRadius:"50%",
-          color:"white",
-          background:"#89b927"
-        }} onClick={scrollUp}><i class="fa-solid fa-chevron-up"></i></button>
+          height: "50px",
+          fontSize: '20px',
+          border: 'none',
+          borderRadius: "50%",
+          color: "white",
+          background: "#89b927",
+          zIndex:"999999999999999"
+        }} onClick={scrollUp}><i className="fa-solid fa-chevron-up"></i></button>
       )}
       {/* Section1 */}
       <section className='swipper'>
@@ -80,13 +85,12 @@ const Home = () => {
         <div className="container">
           <div className="row">
             {data && data.map((d) => (
-              <div key={d.id} className="col-3 col2">
+              <div key={d.id} className="col-md-2 col2">
                 <img src={d.image} alt="img" />
                 <h3>{d.categories}</h3>
-                <button onClick={(id) => handleDelete(d._id)} style={{ border: "none", background: "none" }}><i style={{ color: "#89b927", fontSize: "20px" }} class="fa-solid fa-trash"></i></button>
+                <button onClick={(id) => handleDelete(d._id)} style={{ border: "none", background: "none" }}><i style={{ color: "#89b927", fontSize: "20px" }} className="fa-solid fa-trash"></i></button>
               </div>
             ))}
-
             <div className="col-12 col12">
               <button>BROWSE ALL CATEGORIES</button>
             </div>

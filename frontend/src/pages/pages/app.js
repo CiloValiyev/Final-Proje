@@ -1,6 +1,5 @@
 var acc = document.getElementsByClassName("accordion");
 var panel = document.getElementsByClassName("panel");
-var panel1 = document.getElementsByClassName("panel1");
 var i;
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {

@@ -82,25 +82,9 @@
 
 // Section2
 
-.container{
-    .row{
-        .col-md-5{
-            .accordion-one{
-                background-color: #89b927;
-                color: white;
-                cursor: pointer;
-                padding: 18px;
-                width: 100%;
-                text-align: left;
-                font-size: 15px;
-                transition: 0.4s;
-                margin-bottom: 15px; 
-                border: none;
-                .panel-one {
-                    padding: 0 18px;
-                    background-color: #f3fce1;
-                  }
-            }
+.container {
+    .row {
+        .col-md-5 {
             .accordion {
                 background-color: #1d2833;
                 color: white;
@@ -113,19 +97,23 @@
                 font-size: 15px;
                 transition: 0.4s;
                 margin-bottom: 15px;
-                .panel {
-                    padding: 0 18px;
-                    display: none;
-                    background-color: #f3fce1;
-                    overflow: hidden;
-                  }
-              }
-              .active, .accordion:hover {
-                background-color: #89b927; 
-              }
+            }
+
+            .active,
+            .accordion:hover {
+                background-color: #89b927;
+            }
+
+            .panel {
+                padding: 0 18px;
+                display: none;
+                background-color: #f3fce1;
+                overflow: hidden;
+            }
         }
     }
 }
+
 // Section3
 .business-performance-wrapper {
     background-image: url("http://sbtechnosoft.com/recruitepro/images/business-performance-bg.jpg");
@@ -423,6 +411,7 @@
 // Faq
 .inner-page-wrapper5 {
     margin-bottom: 50px;
+
     .container {
         .row {
             .accordion {
@@ -436,45 +425,52 @@
                 outline: none;
                 font-size: 15px;
                 transition: 0.4s;
-                span{
+
+                span {
                     color: black;
-                    font-weight:600 ;
+                    font-weight: 600;
                 }
-                button{
+
+                button {
                     color: #ffffff;
                     height: 40px;
                     width: 40px;
                     border: none;
                     margin-right: 15px;
                 }
-                button:hover{
+
+                button:hover {
                     background: #89b927;
 
                 }
-                .icon{
+
+                .icon {
                     background: #89b927;
 
                 }
-              }
-              
-              .panel {
+            }
+
+            .panel {
                 padding: 0 18px;
                 display: none;
                 background-color: white;
                 overflow: hidden;
                 padding-left: 70px;
                 color: #1d2833;
-                p{
+
+                p {
                     color: #3f4041;
                 }
-              }
-              .panel1{
+            }
+
+            .panel1 {
                 padding: 0 18px;
                 background-color: white;
                 overflow: hidden;
                 padding-left: 70px;
                 color: #1d2833;
-              }
+            }
+
             .contact-form {
                 .form-group {
                     margin-bottom: 25px;
@@ -521,6 +517,173 @@
                         border: none;
                         text-transform: uppercase;
                     }
+                }
+            }
+        }
+    }
+}
+
+// Comming Soon
+.comming-soon {
+    background: url("http://sbtechnosoft.com/recruitepro/images/comming-soon-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    height: 120vh;
+    &:before {
+        content: "";
+        display: inline-block;
+        height: 120vh;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.75);
+    }
+
+    .container {
+        position: relative;
+        .row {
+            .col-6 {
+                a {
+                    text-decoration: none;
+
+                    img {
+                        margin-top: 50px;
+                    }
+                }
+
+                ul {
+                    list-style: none;
+                    float: right;
+                    margin-top: 50px;
+                    display: flex;
+
+                    li {
+                        a {
+                            background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                            border: 1px solid #f1f1f1;
+                            color: #f1f1f1;
+                            display: inline-block;
+                            height: 35px;
+                            line-height: 32px;
+                            margin-right: 8px;
+                            text-align: center;
+                            width: 35px;
+                            transition: 0.6s;
+
+                            i {
+                                display: inline-block;
+                                font: normal normal normal 14px/1 FontAwesome;
+                                font-size: inherit;
+                                text-rendering: auto;
+                            }
+                        }
+
+                        a:hover {
+                            border: 1px solid #89b927;
+                            color: #89b927;
+                        }
+                    }
+
+                }
+            }
+
+            .col-12 {
+                margin-top: 100px;
+                text-align: center;
+
+                h1 {
+                    color: #f1f1f1;
+                    font-size: 60px;
+                    letter-spacing: 10px;
+                }
+
+                p {
+                    color: #89b927;
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                }
+
+                .time {
+                    display: flex;
+                    justify-content: center;
+
+                    .hours {
+                        margin-right: 80px;
+                        margin-left: 30px;
+
+                        span {
+                            font-size: 60px;
+                            font-weight: bold;
+                            display: block;
+                            margin-bottom: 20px;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            color: #aaa;
+                        }
+                    }
+
+                    .seconds {
+                        margin-right: 80px;
+
+                        span {
+                            font-size: 60px;
+                            font-weight: bold;
+                            display: block;
+                            margin-bottom: 20px;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            color: #aaa;
+                        }
+                    }
+
+                    .minutes {
+                        margin-right: 50px;
+
+                        span {
+                            font-size: 60px;
+                            font-weight: bold;
+                            display: block;
+                            margin-bottom: 20px;
+                            line-height: 30px;
+                            color: #fff;
+                        }
+
+                        p {
+                            font-size: 18px;
+                            color: #aaa;
+                        }
+                    }
+                }
+
+                input {
+                    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                    border: 1px solid #89b927;
+                    color: #89b927;
+                    height: 45px;
+                    padding: 10px;
+                    width: 300px;
+                }
+
+                button {
+                    background: #89b927;
+                    border: 1px solid #89b927;
+                    color: #f1f1f1;
+                    display: inline-block;
+                    font-size: 13px;
+                    height: 50px;
+                    letter-spacing: 2px;
+                    line-height: 48px;
+                    padding: 0 45px;
+                    text-transform: uppercase;
                 }
             }
         }

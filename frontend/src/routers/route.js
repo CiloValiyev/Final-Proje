@@ -11,6 +11,9 @@ import Faq from "../pages/pages/Faq";
 import CommingSoon from "../pages/pages/CommingSoon";
 import NotFound from "../pages/pages/NotFound";
 import Apply from "../pages/current/Apply";
+import AdminRouter from "../components/AdminRouter";
+import Admin from "../pages/admin/Admin";
+import CommingSoonRouter from "../components/CommingSoonRouter";
 const ROUTES = [
     {
         path: "",
@@ -31,10 +34,6 @@ const ROUTES = [
             {
                 path: "pages/faq",
                 element: <Faq />
-            },
-            {
-                path: "pages/commingsoon",
-                element: <CommingSoon />
             },
             {
                 path: "*",
@@ -66,6 +65,26 @@ const ROUTES = [
                 element: <Contact />
             },
         ]
+    },
+    {
+        path: "/",
+        element: <AdminRouter />,
+        children: [
+            {
+                path: "admin",
+                element: <Admin />,
+            },
+        ],
+    },
+    {
+        path: "/",
+        element: <CommingSoonRouter />,
+        children: [
+            {
+                path: "commingsoon",
+                element: <CommingSoon />,
+            },
+        ],
     }
 ]
 export default ROUTES;

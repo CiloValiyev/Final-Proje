@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { NavLink,Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import { NavLink, Link } from 'react-router-dom';
 import "../blog/blog.scss"
 const Blog = () => {
   let activeStyle = {
@@ -26,19 +27,24 @@ const Blog = () => {
   }
   return (
     <div className='blog-wrapper'>
-       {topButton && (
+        <Helmet>
+        <title>Blog</title>
+      </Helmet>
+      {topButton && (
         <button style={{
           position: "fixed",
           bottom: '50px',
           right: "50px",
           width: "50px",
-          height:"50px",
-          fontSize:'20px',
-          border:'none',
-          borderRadius:"50%",
-          color:"white",
-          background:"#89b927"
-        }} onClick={scrollUp}><i class="fa-solid fa-chevron-up"></i></button>
+          height: "50px",
+          fontSize: '20px',
+          border: 'none',
+          borderRadius: "50%",
+          color: "white",
+          background: "#89b927",
+          zIndex:"999999999999999"
+
+        }} onClick={scrollUp}><i className="fa-solid fa-chevron-up"></i></button>
       )}
       {/* Section1 */}
       <section className='contact-us-wrapper1'>
@@ -109,8 +115,8 @@ const Blog = () => {
                 </div>
               </div>
             </div>
-            <div className="text-center"> 
-            <button className="btn-one">Visit Our Blog</button>
+            <div className="text-center">
+              <button className="btn-one">Visit Our Blog</button>
             </div>
           </div>
         </div>

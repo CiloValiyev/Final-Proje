@@ -145,24 +145,16 @@
     font-size: 30px;
   }
 }
-.category-api .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .category-api .container .row {
-  margin-right: -15px;
-  margin-left: -15px;
   text-align: center;
 }
 .category-api .container .row .col2 {
+  margin-top: 40px !important;
+  margin-right: 50px !important;
   background-color: #f9f9f9;
   margin: 0 auto;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  margin-top: 20px;
-  margin-left: 5px;
 }
 .category-api .container .row .col2 img {
   padding: 25px;

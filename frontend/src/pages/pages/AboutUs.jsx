@@ -1,13 +1,51 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import "../pages/pages.scss";
 import "../pages/about";
+import { Helmet } from 'react-helmet';
 const AboutUs = () => {
     let activeStyle = {
         color: "#89b927"
     };
+    const [topButton, settopButton] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 120) {
+                settopButton(true)
+            }
+            else {
+                settopButton(false)
+            }
+        })
+    }, [])
+
+    const scrollUp = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
     return (
         <div>
+            <Helmet>
+                <title>About Us</title>
+            </Helmet>
+            {topButton && (
+                <button style={{
+                    position: "fixed",
+                    bottom: '50px',
+                    right: "50px",
+                    width: "50px",
+                    height: "50px",
+                    fontSize: '20px',
+                    border: 'none',
+                    borderRadius: "50%",
+                    color: "white",
+                    background: "#89b927",
+                    zIndex: "999999999999999"
+                }} onClick={scrollUp}><i className="fa-solid fa-chevron-up"></i></button>
+            )}
             {/* Section1 */}
             <section style={{ paddingBottom: "150px" }} className='contact-us-wrapper1'>
                 <div className="breadcrumb-wrapper">
@@ -47,12 +85,7 @@ const AboutUs = () => {
                                 </div>
                             </div>
                             <div style={{ marginLeft: "100px" }} className="col-md-5 col-sm-12">
-
-                                <button className="accordion-one">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
-                                <div className="panel-one">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                </div>
-
+                                
                                 <button className="accordion">Lorem Ipsum is simply dummy text of the printing? <span style={{ marginLeft: "30px", fontSize: "20px" }}>+</span></button>
                                 <div className="panel">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

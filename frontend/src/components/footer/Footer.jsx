@@ -15,11 +15,11 @@ const Footer = () => {
             <div className="col-md-4 colmd4">
               <h3>Follow us on</h3>
               <ul>
-                <li><i className="fa-brands fa-facebook-f"></i></li>
-                <li><i className="fa-brands fa-twitter"></i></li>
-                <li><i className="fa-brands fa-linkedin-in"></i></li>
-                <li><i className="fa-brands fa-google-plus-g"></i></li>
-                <li><i className="fa-brands fa-youtube"></i></li>
+              <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> </li>
+                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
               </ul>
             </div>
             <div className="col-md-4">
@@ -39,11 +39,11 @@ const Footer = () => {
               <div className="single-section-two white">
                 <h3 style={{ color: "white", paddingBottom: "30px" }}>Company</h3>
                 <ul style={{ listStyle: "none" }}>
-                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}> <Link style={{ color: "white", textDecoration: "none" }}><button></button> About Us</Link></li>
+                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}> <Link to='pages/aboutus' style={{ color: "white", textDecoration: "none" }}><button></button> About Us</Link></li>
                   <li style={{ paddingBottom: "20px", fontSize: "18px" }}><span></span><Link style={{ color: "white", textDecoration: "none" }}> <button></button>Help Center</Link></li>
-                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}> <button></button>Blog</Link></li>
+                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link to='blog' style={{ color: "white", textDecoration: "none" }}> <button></button>Blog</Link></li>
                   <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>Careers</Link></li>
-                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>Contact Us</Link></li>
+                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link to='contact' style={{ color: "white", textDecoration: "none" }}><button></button>Contact Us</Link></li>
                 </ul>
               </div>
             </div>
@@ -55,7 +55,7 @@ const Footer = () => {
                   <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>Add Listing</Link></li>
                   <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>Popular Categor</Link></li>
                   <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>Popular Places</Link></li>
-                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link style={{ color: "white", textDecoration: "none" }}><button></button>FAQ</Link></li>
+                  <li style={{ paddingBottom: "20px", fontSize: "18px" }}><Link to='pages/faq' style={{ color: "white", textDecoration: "none" }}><button></button>FAQ</Link></li>
                 </ul>
               </div>
             </div>
