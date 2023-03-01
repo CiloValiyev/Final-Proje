@@ -38,7 +38,7 @@ const SwipperOne = () => {
                 className="mySwiper"
             >
                 {data && data.map((d) => (
-                    <SwiperSlide key={d.id} className='swipper-slide-message'>
+                    <SwiperSlide key={d._id} className='swipper-slide-message'>
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">

@@ -85,7 +85,7 @@ const Home = () => {
         <div className="container">
           <div className="row">
             {data && data.map((d) => (
-              <div key={d.id} className="col-md-2 col2">
+              <div key={d._id} className="col-md-2 col2">
                 <img src={d.image} alt="img" />
                 <h3>{d.categories}</h3>
                 <button onClick={(id) => handleDelete(d._id)} style={{ border: "none", background: "none" }}><i style={{ color: "#89b927", fontSize: "20px" }} className="fa-solid fa-trash"></i></button>

@@ -11,15 +11,15 @@ const Footer = () => {
               <h3>Subscribe Our Newsletter</h3>
               <input className='input-enter' type="text" placeholder='Enter your Email' />
               <input className='input-btn-subscribe' type="text" placeholder='SUBSCRİBE' />
-            </div>     
+            </div>
             <div className="col-md-4 colmd4">
               <h3>Follow us on</h3>
               <ul>
-              <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> </li>
-                <li><a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li><a href="https://www.google.com/" target="_blank"><i class="fa-brands fa-google"></i></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="https://www.facebook.com/" ><i className="fa-brands fa-facebook-f"></i></a> </li>
+                <li><a href="https://twitter.com/" ><i className="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/" ><i className="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://www.google.com/" ><i className="fa-brands fa-google"></i></a></li>
+                <li><a href="https://www.youtube.com/" ><i className="fa-brands fa-youtube"></i></a></li>
               </ul>
             </div>
             <div className="col-md-4">
