@@ -14,6 +14,8 @@ import Apply from "../pages/current/Apply";
 import AdminRouter from "../components/AdminRouter";
 import Admin from "../pages/admin/Admin";
 import CommingSoonRouter from "../components/CommingSoonRouter";
+import Login from "../pages/login/Login";
+import LoginRouter from "../components/LoginRouter";
 const ROUTES = [
     {
         path: "",
@@ -73,6 +75,16 @@ const ROUTES = [
             {
                 path: "admin",
                 element: <Admin />,
+            },
+        ],
+    },
+    {
+        path: "/",
+        element: <LoginRouter />,
+        children: [
+            {
+                path: "login",
+                element: <Login />,
             },
         ],
     },

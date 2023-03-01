@@ -1,1 +1,56 @@
-/*# sourceMappingURL=admin.css.map */
+.admin-page {
+  background-color: rgb(249, 255, 240);
+}
+.admin-page .admin {
+  margin: 0 auto;
+  text-align: center;
+}
+.admin-page .admin .table {
+  padding-top: 50px !important;
+  color: black;
+}
+.admin-page .admin .table tbody tr .fa-trash:hover {
+  font-size: 50px;
+}
+.admin-page .add-input {
+  text-align: center;
+  margin: 0 auto;
+}
+.admin-page .add-input input {
+  height: 35px;
+  border: 1px solid greenyellow;
+  width: 700px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.admin-page .add-input button {
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  background-color: greenyellow;
+  margin-top: 30px;
+  transition: 0.8s;
+}
+.admin-page .add-input .go-to-home {
+  margin-top: 5px !important;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+.admin-page .add-input .go-to-home a {
+  text-decoration: none;
+  color: black;
+}
+.admin-page .add-input button:hover {
+  background-color: black;
+  color: white;
+}
+.admin-page .add-input .go-to-home:hover {
+  background-color: black;
+}
+.admin-page .add-input .go-to-home:hover a {
+  color: white;
+}/*# sourceMappingURL=admin.css.map */

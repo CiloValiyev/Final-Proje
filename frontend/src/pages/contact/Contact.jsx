@@ -106,12 +106,12 @@ const Contact = () => {
                       <form>
                         <div className="col-md-4 col-sm-12">
                           <div className="form-group">
-                            <input className="form-control" id="name" placeholder="Your Name"  type="text" />
+                            <input className="form-control" id="name" placeholder="Your Name" type="text" />
                           </div>
                         </div>
                         <div className="col-md-4 col-sm-12">
                           <div className="form-group">
-                            <input className="form-control" id="phone" placeholder="Your Phone number"  type="text" />
+                            <input className="form-control" id="phone" placeholder="Your Phone number" type="text" />
                           </div>
                         </div>
                         <div className="col-md-4 col-sm-12">

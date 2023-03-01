@@ -58,7 +58,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-nav ms-auto">
-                    <button className='login-sign '>LOGIN / SIGN UP</button>
+                    <button className='login-sign'><Link style={{ textDecoration: "none", fontSize: "10px" }} to='login'>LOGIN / SIGN UP</Link></button>
                     <button className='user'><i className="fa-solid fa-user-tie"></i></button>
                 </div>
             </nav>

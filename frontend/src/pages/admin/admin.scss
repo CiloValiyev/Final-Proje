@@ -1,0 +1,72 @@
+.admin-page {
+    background-color: rgb(249, 255, 240);
+
+    .admin {
+        margin: 0 auto;
+        text-align: center;
+
+        .table {
+            padding-top: 50px !important;
+            color: black;
+
+            tbody{
+                tr{
+                    .fa-trash:hover {
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .add-input {
+        text-align: center;
+        margin: 0 auto;
+
+        input {
+            height: 35px;
+            border: 1px solid greenyellow;
+            width: 700px;
+            margin-top: 20px;
+            padding: 10px;
+        }
+
+        button {
+            height: 50px;
+            width: 150px;
+            border: none;
+            border-radius: 20px;
+            background-color: greenyellow;
+            margin-top: 30px;
+            transition: 0.8s;
+        }
+
+        .go-to-home {
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            margin-top:5px !important;
+            height: 50px;
+            width: 150px;
+            border: none;
+            border-radius: 20px;
+            background-color: greenyellow;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+        .go-to-home:hover {
+            background-color: black;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
